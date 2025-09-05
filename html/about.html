@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | SK Talumpok Kanluran</title>
+  <link rel="stylesheet" href="../css/skwebpage.css">
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="header-container">
+
+      <div id="logo-container">
+        <img src="../media/sktalumpokkanluran.png" alt="Logo" class="header-logo">
+        
+        <div class="header-text">
+          <h1>Sangguniang Kabataan</h1>
+          <p><span>Ng Barangay</span> <span>Talumpok Kanluran</span></p>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./recog.html">Recognitions</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./reports.html">Reports</a>
+        <a href="./contacts.html">Contact</a>
+      </nav>
+
+       <div class="auth-buttons">
+        <a href="./signin.html" class="btn sign-in">Sign In</a>
+        <a href="./register.html" class="btn register">Register</a>
+      </div>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    document.querySelector('.hamburger').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+  </script>
+
+  <section class="hero-about video">
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="../media/skvideo.mp4" type= "video/mp4">
+        Your browser does not support the video tag.  
+    </video>
+  </section>
+  
+  <main>
+    <section class="content">
+      <h2>Who We Are</h2>
+      <p>
+        The Sangguniang Kabataan (SK) of Barangay Talumpok Kanluran is composed of dedicated youth leaders 
+        committed to promoting transparency, participation, and progress within our community. 
+        We believe in empowering young people to be active agents of change.
+      </p>
+    </section>
+
+    <section class="content">
+      <h2>Our Vision</h2>
+      <p>
+        A progressive, united, and youth-driven barangay where every young individual 
+        is empowered to contribute to sustainable development and good governance.
+      </p>
+    </section>
+
+    <section class="content">
+      <h2>Our Mission</h2>
+      <p>
+        To create inclusive programs that promote education, health, livelihood, 
+        sports, environmental care, and leadership training while upholding transparency, 
+        accountability, and integrity in serving the youth and community.
+      </p>
+    </section>
+
+    <section class="content">
+      <h2>Meet Your SK Officials</h2>
+      <p>Get to know the youth leaders serving our barangay:</p>
+
+      <div class="officials-grid">
+        <div class="official-card">
+          <img src="../media/skjam.jpg" alt="SK Chairperson">
+          <h4>Hon. Jamaica R. Cueto</h4>
+          <p>SK Chairperson</p>
+        </div>
+
+        <div class="official-card">
+          <img src="../media/skanselle.jpg" alt="SK Kagawad">
+          <h4>Hon. Kristine Anselle M. Calaluan</h4>
+          <p>SK Kagawad</p>
+        </div>
+
+        <div class="official-card">
+          <img src="../media/skgerald.jpg" alt="SK Kagawad">
+          <h4>Hon. Gerald R. Macalalad</h4>
+          <p>SK Kagawad</p>
+        </div>
+
+        <div class="official-card">
+          <img src="../media/skwannie.jpg" alt="SK Kagawad">
+          <h4>Hon. Dewannie M. Reyes</h4>
+          <p>SK Kagawad</p>
+        </div>
+
+        <div class="official-card">
+          <img src="../media/skjm.jpg" alt="SK Kagawad">
+          <h4>Hon. John Matthew M. Gabia</h4>
+          <p>SK Kagawad</p>
+        </div>
+
+        <div class="official-card">
+          <img src="../media/skkaren.jpg" alt="SK Kagawad">
+          <h4>Hon. Karen B. Suarez</h4>
+          <p>SK Kagawad</p>
+        </div>
+
+        <div class="official-card">
+          <img src="../media/skammuel.jpg" alt="SK Kagawad">
+          <h4>Hon. Keith Ammuel S. De Torres</h4>
+          <p>SK Kagawad</p>
+        </div>
+
+        <div class="official-card">
+          <img src="../media/skprinces.jpg" alt="SK Kagawad">
+          <h4>Hon. Princes Jesica S. Delen</h4>
+          <p>SK Kagawad</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+  <footer>
+    <p>&copy; 2025 Sangguniang Kabataan Ng Barangay Talumpok Kanluran — All Rights Reserved</p>
+  </footer>
+  
+</html>

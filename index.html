@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SK Talumpok Kanluran | Batangas City</title>
+  <link rel="stylesheet" href="./css/skwebpage.css">
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="header-container">
+      <div id="logo-container">
+        <img src="./media/sktalumpokkanluran.png" alt="Logo" class="header-logo">
+        
+        <div class="header-text">
+          <h1>Sangguniang Kabataan</h1>
+          <p><span>Ng Barangay</span> <span>Talumpok Kanluran</span></p>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="./index.html">Home</a>
+        <a href="./html/about.html">About</a>
+        <a href="./html/recog.html">Recognitions</a>
+        <a href="./html/projects.html">Projects</a>
+        <a href="./html/reports.html">Reports</a>
+        <a href="./html/contacts.html">Contact</a>
+      </nav>
+
+       <div class="auth-buttons">
+        <a href="./html/signin.html" class="btn sign-in">Sign In</a>
+        <a href="./html/register.html" class="btn register">Register</a>
+      </div>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero-home">
+    <span><h1>Serving TalKans Community with Transparency</h1><span></span>
+    <span><p>Towards progress, unity, and development.</p></span>
+    <span><a href="about_skwebpage.html" class="btn">Learn More</a></span>
+  </section>
+
+  <main>
+    <section class="content">
+      <h2>Our Programs</h2>
+      <p>
+        From youth development,health, education, and community services.
+      </p>
+    </section>
+    
+    <section class="content">
+      <h2>Linggo Ng Kabataan 2025 </h2>
+        <div class="content-images">
+          <img src="./media/lnk02.jpg" alt="Image 1" class="content-img">
+          <img src="./media/lnk06.jpg" alt="Image 2" class="content-img">
+          <img src="./media/lnk07.jpg" alt="Image 3" class="content-img">
+          <img src="./media/lnk09.jpg" alt="Image 4" class="content-img">
+          <img src="./media/lnk10.jpg" alt="Image 5" class="content-img">
+          <img src="./media/lnk03.jpg" alt="Image 6" class="content-img">
+        </div>
+
+      <section>
+        <p>
+        The <strong>Linggo ng Kabataan</strong> , as mandated by <strong>Republic Act No. 10742</strong> or the <strong>SK Reform Act of 2015</strong>, is an 
+        annual celebration that underscores the vital role of the youth in governance, leadership, and community development.
+        In support of this mandate, <strong>SK Talumpok Kanluran</strong> celebrates Linggo ng Kabataan with various 
+        projects and initiatives tailored to the needs and aspirations of the young people in the barangay. 
+        These activities serve as platforms to promote leadership development, volunteerism, social inclusion, and responsible 
+        citizenship among the youth.
+        </p>
+      </section>
+    </section>
+  </main>
+</body>
+
+  <footer>
+    <p>&copy; 2025 Sangguniang Kabataan Ng Barangay Talumpok Kanluran — All Rights Reserved</p>
+  </footer>
+    
+  <script>
+    document.querySelector('.hamburger').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+  </script>
+
+  <script>
+    document.querySelector(".hamburger").addEventListener("click", () => {
+      document.querySelector(".nav-menu").classList.toggle("active");
+    });
+  </script>
+</html>
